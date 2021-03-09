@@ -22,7 +22,7 @@ Forked by MinePro120.
 * Status LED
 
 ## Usage
-Insert the credentials of your Wi-Fi network in the sketch, as denoted by the "Change me" comment.
+Insert the credentials of your Wi-Fi network in the sketch, as denoted by the "Change me" comments.
 Upon uploading, the following command can be used to listen to the stream (tested on UNIX):
 ``` bash
 nc -l 0.0.0.0 6120 | play -r 16k -e unsigned-integer -b 16 -t raw -
@@ -31,7 +31,7 @@ nc -l 0.0.0.0 6120 | play -r 16k -e unsigned-integer -b 16 -t raw -
 
 ## Tips
 * Increase the "AUDIO_BUFFER_LENGTH" as much as possible to avoid noise created by using the Wi-Fi (and possibly save battery power).
-* Using SoX, you can record the streamed audio and apply various effects (like noise reduction). See the [SoX Manual](https://linux.die.net/man/1/sox "Sox Manual") for more details.
+* Using SoX, you can record the streamed audio and apply various effects (like noise reduction). See the [SoX manual](https://linux.die.net/man/1/sox "Sox Manual") for more details.
 * VLC media player can be used instead of SoX.
 * A hotspot can be used when no router is available (the Wi-Fi card must support "master" mode).
 * Alternatively, the ESP32 could create a SoftAP at the expense of increased power consumption.
