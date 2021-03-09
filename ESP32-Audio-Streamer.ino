@@ -1,4 +1,4 @@
-/* Created by Julian @ https://www.hackster.io/julianso/esp32-voice-streamer-52bd7e
+/* Original by Julian Schroeter @ https://www.hackster.io/julianso/esp32-voice-streamer-52bd7e
  * Forked by MinePro120 */
 
 #include <WiFi.h>

@@ -10,7 +10,7 @@
 Stream audio recorded by your ESP32 to a computer.
 
 ## Credits
-Schematics and original code created by Julian at [hackster.io](https://www.hackster.io/julianso/esp32-voice-streamer-52bd7e "hackster.io"). 
+Schematics and original code created by Julian Schroeter at [hackster.io](https://www.hackster.io/julianso/esp32-voice-streamer-52bd7e "hackster.io"). 
 Forked by MinePro120.
 
 ## Features (additional)
